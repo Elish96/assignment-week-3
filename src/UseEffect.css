@@ -1,0 +1,59 @@
+
+*{
+    padding:0;
+    margin:0;
+
+}
+
+.parent-container{
+    background-color: rgb(219, 212, 212);
+}
+.my-image{
+    height:40%;
+    width:100%;
+    background-image: radial-gradient(circle,#11998e,#38e, rgb(221, 221, 163)20px);
+}
+
+#profile-pic{
+    width:45%;
+    height:100%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    z-index: 1000;
+}
+.card {
+    height: 20rem;
+    width: 25rem;
+    margin: 0 auto;
+    margin-top:1.5rem;
+    background-color: floralwhite;
+    box-shadow: rgb(26, 25, 25) 5px 10px 5px 3px;
+}
+
+.cards{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0 auto;
+    width:20rem;
+    line-height:1.3rem;
+    background-color:floralwhite;
+   
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:floralwhite;
+    width:80%;
+    height:4rem;
+    margin: 0 auto;
+    align-items: center;  
+}
+
+img{
+    width:10%;
+}
+
